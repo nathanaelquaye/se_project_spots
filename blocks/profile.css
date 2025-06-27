@@ -50,6 +50,7 @@
   border-radius: 8px;
   gap: 8px;
   padding: 18px;
+  color: #fff;
 }
 
 @media screen and (max-width: 627px) {
