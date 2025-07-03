@@ -2,6 +2,16 @@
   padding-top: 20px;
 }
 
+card__title {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120;
+  width: 190px;
+  height: 24px;
+  top: 425px;
+}
+
 .cards__list {
   list-style-type: none;
   padding: 0;

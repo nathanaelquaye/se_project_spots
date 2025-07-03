@@ -4,23 +4,31 @@
   object-fit: cover;
   display: block;
 }
+.card__title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
 
 .card__content {
+  margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .card__like-btn {
+  cursor: pointer;
   background-image: url(../images/like-img.svg);
   width: 23px;
   height: 20px;
   border: none;
   background-color: transparent;
   opacity: 40%;
+}
+
+.card__like-btn:hover {
+  opacity: 100;
 }
 
 @media screen and (max-width: 627px) {
