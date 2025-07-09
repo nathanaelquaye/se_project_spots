@@ -16,8 +16,12 @@ I just created this website using Visual Studio Code which allows users to uploa
 
 This webpage is deployed to GitHub Pages
 
-- [Deployment Links:]
+- Deployment Links:
 
-- (https://github.com/nathanaelquaye/se_project_spots)
+- https://github.com/nathanaelquaye/se_project_spots
 
-- (https://github.com/nathanaelquaye)
+- https://github.com/nathanaelquaye
+
+- My Video Link:
+
+- https://drive.google.com/file/d/1wHbVHPFK8VrILxGTIysuRSfDF_zhAnTJ/view?usp=drive_link

@@ -82,10 +82,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 100%;
 }
 
 .profile__add-btn:hover {
-  opacity: 100%;
+  opacity: 70%;
 }
 
 @media screen and (max-width: 627px) {
