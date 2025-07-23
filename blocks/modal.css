@@ -13,7 +13,7 @@
 }
 
 .modal_is-opened {
-  visibility: visible;
+  visibility: hidden;
 }
 
 .modal__container {
