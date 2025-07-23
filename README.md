@@ -18,9 +18,7 @@ This webpage is deployed to GitHub Pages
 
 - Deployment Links:
 
-- https://github.com/nathanaelquaye/se_project_spots
-
-- https://github.com/nathanaelquaye
+- n/a
 
 - My Video Link:
 
