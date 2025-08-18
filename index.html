@@ -36,6 +36,7 @@
             </button>
           </div>
           <button type="button" class="profile__add-btn">
+            <!--could be changed to "profile__new-post-btn"-->
             <img src="./images/plus-symbol.svg" alt="Plus Icon" />New Post
           </button>
         </section>
@@ -115,7 +116,7 @@
       <footer class="footer">
         <p class="footer__copyright">2025 &#169; Spots</p>
       </footer>
-      <div class="modal">
+      <div class="modal" id="edit-profile-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">Edit profile</h2>
@@ -142,7 +143,7 @@
           </form>
         </div>
       </div>
-      <div class="modal">
+      <div class="modal" id="new-post-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">New post</h2>
@@ -170,5 +171,6 @@
         </div>
       </div>
     </div>
+    <script src="./scrpt/index.js"></script>
   </body>
 </html>

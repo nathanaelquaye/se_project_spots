@@ -126,6 +126,7 @@
   }
 
   .profile__add-btn {
+    /*this is equivalent to using .profile__new-post-btn*/
     margin: 0;
     width: 100%;
     line-height: 100%;
