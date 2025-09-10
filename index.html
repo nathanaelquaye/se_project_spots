@@ -35,8 +35,8 @@
               <img src="./images/pencil.svg" alt="Pencil Icon" />Edit Profile
             </button>
           </div>
-          <button type="button" class="profile__add-btn">
-            <!--could be changed to "profile__new-post-btn"-->
+          <button type="button" class="profile__new-post-btn">
+            <!--was previously changed to "profile__add-btn"-->
             <img src="./images/plus-symbol.svg" alt="Plus Icon" />New Post
           </button>
         </section>
@@ -70,10 +70,10 @@
                 alt="An outdoor cafe"
                 class="card__image"
               />
-              <div class="card__content">
+                <div class="card__content"></div>
                 <h2 class="card__title">An outdoor cafe</h2>
                 <button type="button" class="card__like-btn"></button>
-              </div>
+                </div>
             </li>
             <li class="card">
               <img
@@ -143,6 +143,7 @@
           </form>
         </div>
       </div>
+      <!--delete this before submission-->
       <div class="modal" id="new-post-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn"></button>
@@ -157,13 +158,13 @@
                 placeholder="Place a link to the picture"
               />
             </label>
-            <label for="profile-description-input" class="modal__label">
+            <label for="post-description-input" class="modal__label">
               Description
               <input
-                id="profile-description-input"
+                id="post-description-input"
                 type="text"
                 class="modal__input"
-                placeholder="Describe yourself"
+                placeholder="Describe your post"
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>

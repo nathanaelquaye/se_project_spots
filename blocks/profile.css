@@ -67,7 +67,8 @@
   opacity: 100%;
 }
 
-.profile__add-btn {
+.profile__new-post-btn {
+  /*this is equivalent to using .profile__add-btn*/
   margin-top: auto;
   margin-left: auto;
   height: 52px;
@@ -85,7 +86,8 @@
   opacity: 100%;
 }
 
-.profile__add-btn:hover {
+.profile__new-post-btn:hover {
+  /*this is equivalent to using .profile__add-btn*/
   opacity: 70%;
 }
 
@@ -125,8 +127,8 @@
     font-size: 16px;
   }
 
-  .profile__add-btn {
-    /*this is equivalent to using .profile__new-post-btn*/
+  .profile__new-post-btn {
+    /*this is equivalent to using .profile__add-btn*/
     margin: 0;
     width: 100%;
     line-height: 100%;
