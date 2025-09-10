@@ -10,6 +10,12 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+  opacity: 0;
+  transition: 1s linear;
+}
+
+.modal:hover {
+  opacity: 1;
 }
 
 .modal_is-opened {
@@ -35,6 +41,10 @@
   opacity: 40%;
   background-color: #fff;
   background-image: url(../images/cross-symbol.svg);
+}
+
+.modal__close-btn:hover {
+  opacity: 100%;
 }
 
 .modal__title {
@@ -71,6 +81,10 @@
   padding: 16px 12px 16px;
   border: 1px solid #21212166;
   color: #212121;
+}
+
+.modal__input:hover {
+  border-color: #212121;
 }
 
 .modal__input::placeholder {
