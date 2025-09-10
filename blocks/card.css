@@ -5,6 +5,7 @@
   display: block;
   border-radius: 8px;
 }
+
 .card__title {
   text-overflow: ellipsis;
   overflow: hidden;

@@ -10,7 +10,7 @@ const editProfileDescriptionInput = editProfileModal.querySelector(
 );
 
 const newPostBtn = document.querySelector(".profile__new-post-btn");
-/*this is equivalent to using .profile__add-btn*/
+/*this was previously .profile__add-btn*/
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const newPostForm = newPostModal.querySelector(".modal__form");
@@ -53,6 +53,11 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
   const imageLink = newPostLinkInput.value;
   const caption = newPostCaptionInput.value;
+  const cardsList = document.querySelector(".cards__list");
+  const newCard = document.createElement("li");
+  newCard.classList.add("card");
+  cardsList.prepend(newCard);
+  newPostForm.reset();
   console.log("Image link:", imageLink);
   console.log("Caption:", caption);
   newPostModal.classList.remove("modal_is-opened");
