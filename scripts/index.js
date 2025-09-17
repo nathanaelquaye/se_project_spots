@@ -33,8 +33,6 @@ editProfileCloseBtn.addEventListener("click", function () {
 });
 
 newPostBtn.addEventListener("click", function () {
-  newPostLinkInput.value = cardImageEl.src;
-  newPostCaptionInput.value = cardCaptionEl.textContent;
   newPostModal.classList.add("modal_is-opened");
 });
 
@@ -54,9 +52,11 @@ function handleAddCardSubmit(evt) {
   const imageLink = newPostLinkInput.value;
   const caption = newPostCaptionInput.value;
   const cardsList = document.querySelector(".cards__list");
-  const newCard = document.createElement("li");
+  /**const newCard = document.createElement("li");
   newCard.classList.add("card");
   cardsList.prepend(newCard);
+  you'll probably need to add this later
+  **/
   newPostForm.reset();
   console.log("Image link:", imageLink);
   console.log("Caption:", caption);

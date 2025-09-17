@@ -8,3 +8,9 @@
 @import url(../blocks/card.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/modal.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
